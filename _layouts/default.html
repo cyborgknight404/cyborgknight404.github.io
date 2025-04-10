@@ -10,7 +10,7 @@
         margin: 0;
         padding: 0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        background-color: #f9f9f9;
+        background: #f2f4f8;
         color: #111;
       }
 
@@ -158,10 +158,25 @@
         font-weight: bold;
       }
 
-.card a[href$=".py"]:hover {
-  background-color: #00ffe7;
-  color: #111;
-}
+      .card a[href$=".py"]:hover {
+        background-color: #00ffe7;
+        color: #111;
+      }
+
+      .card {
+        background: #fff;
+        padding: 1.75rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      
+      .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      }
 
     </style>
   </head>
