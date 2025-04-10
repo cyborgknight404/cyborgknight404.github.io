@@ -5,31 +5,21 @@ title: Projects
 
 # 🛠 Projects
 
-[View the log-parser repo](https://github.com/cyborgknight404/log-parser)
+## 🔍 Log Parser
 
+**Description:** A Python script that scans log files and flags potentially suspicious entries based on a predefined list of keywords.
 
-**Goal:** A Python tool that reads basic system logs and flags suspicious entries based on patterns or keywords.
-
-- Written in: Python 3.11
-- Targets: Syslog format, firewall logs, and event viewer exports
-- Skills: Regex, file I/O, alert logic, terminal output formatting
-- Status: Planning phase. Building out with test data from home lab.
-
-[View placeholder repo (soon)](https://github.com/cyborgknight404/log-parser)
+- 🔗 [View on GitHub](https://github.com/cyborgknight404/log-parser)
+- 🐍 Language: Python 3.11
+- 📂 Input: Text-based log files (e.g., `.log`, `.txt`)
+- 🎯 Purpose: Build foundational scripting skills for log analysis and defensive security workflows
 
 ---
 
-## ⚙️ Proxmox Home Lab Setup
+## ⚙️ Proxmox Home Lab (WIP)
 
-**Purpose:** To simulate a segmented network with virtual machines for practicing:
-- SIEM log ingestion
-- Detection rule testing
-- Host/network traffic analysis
+**Description:** A hands-on, locally hosted cybersecurity lab using Proxmox and virtual machines to simulate blue team environments.
 
-**Stack:**
-- Proxmox VE
-- Ubuntu VMs
-- Security Onion (planned)
-- Zeek, Suricata, and ELK stack (roadmap)
-
-Screenshots, network map, and config notes will be added soon.
+- 🔬 VMs for log ingestion, firewall testing, and SIEM setup
+- 🔧 Tools to be included: Security Onion, Zeek, Suricata, ELK Stack
+- 👷 Status: In progress; blog post with architecture overview coming soon
