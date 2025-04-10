@@ -50,17 +50,6 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
   </ul>
 </div>
 
-
-<div class="card">
-  <h3>🧠 Network Automation (WIP)</h3>
-  <p>Working on smarter home network controls via Pi-hole, Unbound, and (eventually) VLAN segmentation and logging to my SIEM stack.</p>
-  <ul>
-    <li>🧰 Configured for DNS blackholing and local resolution</li>
-    <li>📡 Logging activity to Security Onion for enrichment</li>
-    <li>🚧 Under active experimentation</li>
-  </ul>
-</div>
-
 ---
 
 <style>
