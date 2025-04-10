@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Side Projects
+description: Where curiosity takes over and structure takes a back seat
 ---
 
 # 🧪 Side Projects & Technical Experiments
