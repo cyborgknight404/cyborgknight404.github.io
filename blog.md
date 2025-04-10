@@ -4,10 +4,11 @@ title: Blog
 ---
 
 {% raw %}
-<!-- BLOG LAYOUT START -->
+<!-- === Blog Page Layout with Sidebar & Preview Cards === -->
+
 <div class="blog-wrapper">
 
-  <!-- SIDEBAR NAVIGATION -->
+  <!-- Sidebar Section -->
   <aside class="blog-sidebar">
     <h2>🗂️ Topics</h2>
     <ul>
@@ -18,34 +19,32 @@ title: Blog
     </ul>
   </aside>
 
-  <!-- MAIN BLOG CONTENT -->
+  <!-- Blog Post Previews -->
   <section class="blog-content">
     <h1>📝 Cybersecurity Blog</h1>
-    <p>This is where I reflect, document, and share what I’m building and learning.</p>
+    <p>Insights, reflections, and hands-on writeups from the trenches of blue team learning and home lab projects.</p>
 
     <div class="card">
       <h3>🔐 Google Cybersecurity Certificate Review</h3>
-      <p>Breakdown of the course, key takeaways, and how I’m applying it in my lab.</p>
-      <a href="/_posts/2025-04-10-google-cybersecurity-cert-review.md">Read More →</a>
+      <p>My breakdown of the Google Cybersecurity Certificate: what’s solid, what’s fluff, and how I used it to launch lab work.</p>
+      <a href="/posts/google-cybersecurity-cert-review">Read More →</a>
     </div>
 
     <div class="card">
-      <h3>🧠 First Impressions of Hack The Box Training</h3>
-      <p>What HTB's blue team training offers, and how it helps build detection skills.</p>
-      <a href="/_posts/2025-04-11-hack-the-box-first-look.md">Read More →</a>
+      <h3>🧠 Hack The Box: First Impressions</h3>
+      <p>What HTB’s new blue team modules look like, and how I’m using them to reinforce detection workflows in my lab.</p>
+      <a href="/posts/hack-the-box-first-look">Read More →</a>
     </div>
   </section>
 
 </div>
-<!-- BLOG LAYOUT END -->
 
-<!-- BLOG PAGE STYLES -->
+<!-- === Styles for Sidebar + Cards === -->
 <style>
 .blog-wrapper {
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .blog-sidebar {
