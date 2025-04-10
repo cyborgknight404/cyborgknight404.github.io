@@ -39,34 +39,45 @@ permalink: /blog
 <style>
 .blog-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
   gap: 2rem;
+  flex-wrap: nowrap;
 }
+
 .blog-sidebar {
-  flex: 0 0 220px;
+  width: 220px;
+  flex-shrink: 0;
   background: #f0f0f0;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 1px 5px rgba(0,0,0,0.05);
 }
+
 .blog-sidebar h2 {
   margin-top: 0;
 }
+
 .blog-sidebar ul {
   list-style: none;
   padding-left: 0;
 }
+
 .blog-sidebar li {
   margin-bottom: 0.75rem;
 }
+
 .blog-sidebar a {
   text-decoration: none;
   font-weight: bold;
   color: #333;
 }
+
 .blog-content {
-  flex: 1 1 600px;
+  flex-grow: 1;
+  min-width: 0;
 }
+
 .card {
   background: #fff;
   padding: 1.5rem;
@@ -74,14 +85,17 @@ permalink: /blog
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
 }
+
 @media screen and (max-width: 768px) {
   .blog-wrapper {
     flex-direction: column;
   }
+
   .blog-sidebar {
     width: 100%;
     margin-bottom: 1rem;
   }
 }
+
 </style>
 {% endraw %}
