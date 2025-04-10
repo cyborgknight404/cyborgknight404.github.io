@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: A little background on who I am
 ---
 
 # 👤 About Me
