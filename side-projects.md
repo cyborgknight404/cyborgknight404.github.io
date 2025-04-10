@@ -3,39 +3,50 @@ layout: default
 title: Side Projects
 ---
 
-# 🧪 Experimental & Side Projects
+# 🧪 Side Projects & Technical Experiments
 
-Not everything I work on is directly cybersecurity-related. This page tracks my other tech experiments—projects I’ve started, paused, or come back to thanks to curiosity, caffeine, or ADHD.
-
----
-
-## 🔧 Home Network Automation (WIP)
-
-Using Pi-hole, Unbound, and Home Assistant to manage and monitor DNS, devices, and automations in my home network. Eventually planning to add VLAN segmentation and log forwarding.
+Not everything I build is strictly cybersecurity-focused—these projects keep my curiosity fed, my tools sharp, and my ADHD somewhat functional.
 
 ---
 
-## 💾 Retro Mac Rebuild
+<div class="card">
+  <h3>💾 Retro Mac Rebuild</h3>
+  <p>Repurposing a 2008 Mac Pro into a hybrid lab and NAS system. Combining old hardware with new tooling for a budget-friendly Proxmox server setup.</p>
+  <ul>
+    <li>🧱 Hardware salvaged and upgraded from two machines</li>
+    <li>🗃️ Hosting virtualized services, file shares, and testing zones</li>
+    <li>🛠 Integrated into my lab + home network stack</li>
+  </ul>
+</div>
 
-Resurrecting a 2008 Mac Pro into a hybrid Proxmox lab and NAS.  
-Includes hardware repair (drive bay rework), RAM upgrades, and bootloader wizardry.  
-This machine will eventually host both home services and my blue team training lab.
+<div class="card">
+  <h3>📦 Self-Hosted App Stack</h3>
+  <p>Testing deployment of local-first tools to replace cloud services.</p>
+  <ul>
+    <li>📚 FreshRSS – self-hosted newsreader</li>
+    <li>🔐 Vaultwarden – secure password manager</li>
+    <li>☁️ Nextcloud – home file sync & cloud replacement</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>🧠 Network Automation (WIP)</h3>
+  <p>Working on smarter home network controls via Pi-hole, Unbound, and (eventually) VLAN segmentation and logging to my SIEM stack.</p>
+  <ul>
+    <li>🧰 Configured for DNS blackholing and local resolution</li>
+    <li>📡 Logging activity to Security Onion for enrichment</li>
+    <li>🚧 Under active experimentation</li>
+  </ul>
+</div>
 
 ---
 
-## 📦 Self-Hosted App Stack
-
-Testing deployments of:
-- **FreshRSS** – for personal news aggregation
-- **Vaultwarden** – self-hosted password manager
-- **Nextcloud** – home file sync and productivity hub
-
-Goal: Learn about containerized deployments, reverse proxies (NGINX), and self-reliant infrastructure.
-
----
-
-## 🧠 Notes for Future Me
-
-These projects help me explore beyond cyber certs, keep my hands dirty in tech, and—critically—give me something productive to bounce to when my brain needs a reset.
-
-If I’ve paused something, it’s probably not dead—just reloading.
+<style>
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+</style>
