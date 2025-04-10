@@ -12,13 +12,13 @@ These are the primary technical projects I’m building to develop real-world, h
 
 <div class="card">
   <h3><a href="/projects/log-parser">🔍 Log Parser (Python)</a></h3>
-  <p>A Python script that scans syslog files and flags potentially suspicious entries based on predefined keywords.</p>
+  <p>A Python script that scans syslogs for suspicious entries based on keyword matching.</p>
   <ul>
-    <li>🚀 Command-line friendly</li>
-    <li>📂 Outputs flagged entries to a timestamped log</li>
-    <li>🧠 In progress: filtering, config, alert flags</li>
+    <li>🚀 CLI tool with customizable input/output</li>
+    <li>📂 Flagged entries saved to a separate log file</li>
+    <li>🛠 In progress: regex support and config options</li>
   </ul>
-  <a href="https://github.com/cyborgknight404/log-parser">View on GitHub →</a>
+  <a href="/downloads/log-parser.py" download target="_blank">⬇️ Download Script</a>
 </div>
 
 <div class="card">
@@ -29,7 +29,7 @@ These are the primary technical projects I’m building to develop real-world, h
     <li>🔗 Simulated attacker + endpoint VMs</li>
     <li>🛠 Under active development</li>
   </ul>
-  <a href="https://github.com/cyborgknight404/proxmox-lab">Explore the GitHub Repo →</a>
+  <a href="https://github.com/cyborgknight404/proxmox-lab" target="_blank">🔗 View GitHub Repo</a>
 </div>
 
 ---
