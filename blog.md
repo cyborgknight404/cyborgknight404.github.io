@@ -31,6 +31,7 @@ permalink: /blog
       <h3>🧠 Hack The Box: First Impressions</h3>
       <p>What HTB’s new blue team modules look like, and how I’m using them to reinforce detection workflows in my lab.</p>
       <a href="/posts/hack-the-box-first-look">Read More →</a>
+
     </div>
   </section>
 
