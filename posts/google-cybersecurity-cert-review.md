@@ -3,6 +3,7 @@ layout: default
 title: Google Cybersecurity Certificate Review
 permalink: /posts/google-cybersecurity-cert-review
 tags: [certification, training, beginner, google]
+date: 2025-04-10
 ---
 
 # 🔐 Google Cybersecurity Certificate Review
