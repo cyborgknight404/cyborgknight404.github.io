@@ -30,24 +30,28 @@ permalink: /blog
 
     <div class="card" data-tags="certification training beginner google">
       <h3>🔐 Google Cybersecurity Certificate Review</h3>
+      <p class="post-date">📅 April 10, 2025</p>
       <p>My breakdown of the Google Cybersecurity Certificate: what’s solid, what’s fluff, and how I used it to launch lab work.</p>
       <a href="/posts/google-cybersecurity-cert-review">Read More →</a>
     </div>
 
     <div class="card" data-tags="labs blue-team training hackthebox">
       <h3>🧠 Hack The Box: First Impressions</h3>
+      <p class="post-date">📅 April 10, 2025</p>
       <p>What HTB’s blue team training offers, and how it helps build detection skills.</p>
       <a href="/posts/hack-the-box-first-look">Read More →</a>
     </div>
 
     <div class="card" data-tags="lab hardware proxmox blue-team homelab">
       <h3>⚙️ Proxmox Lab Build Log</h3>
+      <p class="post-date">📅 April 10, 2025</p>
       <p>From junk hardware to a functioning lab: how I built a full Proxmox-based blue team environment at home.</p>
       <a href="/posts/proxmox-lab-build">Read More →</a>
     </div>
 
     <div class="card" data-tags="tool python log-analysis detection scripting">
       <h3>🔍 Log Parser Tool (Python)</h3>
+      <p class="post-date">📅 April 10, 2025</p>
       <p>Scan syslogs for suspicious activity using a simple Python script I built to sharpen my detection skills.</p>
       <a href="/posts/log-parser-tool">Read More →</a>
     </div>
