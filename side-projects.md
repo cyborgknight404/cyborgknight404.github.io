@@ -31,7 +31,7 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
 </div>
 
 <div class="card">
-  <h3>📦 Self-Hosted App Stack</h3>
+  <h3><a href="/side-projects/self-hosted-apps">📦 Self-Hosted App Stack</a></h3>
   <p>Testing deployment of local-first tools to replace cloud services.</p>
   <ul>
     <li>📚 FreshRSS – self-hosted newsreader</li>
