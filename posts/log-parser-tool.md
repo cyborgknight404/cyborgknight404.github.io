@@ -2,6 +2,7 @@
 layout: default
 title: Log Parser Tool – Simple Log Scrubbing for Suspicious Entries
 permalink: /posts/log-parser-tool
+tags: [tool, python, log-analysis, detection, scripting]
 ---
 
 # 🔍 Log Parser Tool – Simple Log Scrubbing for Suspicious Entries
