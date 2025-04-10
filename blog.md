@@ -134,7 +134,48 @@ permalink: /blog
   .card a {
     font-size: 1.05rem;
   }
+
+  .tag-filter {
+  margin-bottom: 1rem;
+}
+
+.tag-filter button {
+  background: #eee;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px 5px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tag-filter button.active,
+.tag-filter button:hover {
+  background: #333;
+  color: #fff;
+}
 }
 
 </style>
+
+<script>
+  const filterButtons = document.querySelectorAll('.tag-filter button');
+  const cards = document.querySelectorAll('.card');
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const tag = button.dataset.filter;
+
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+
+      cards.forEach(card => {
+        const tags = card.dataset.tags.split(" ");
+        const show = tag === "all" || tags.includes(tag);
+        card.style.display = show ? "block" : "none";
+      });
+    });
+  });
+</script>
+
 {% endraw %}
