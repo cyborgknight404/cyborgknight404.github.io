@@ -181,5 +181,17 @@
         </p>
       </div>
     </footer>
+    <script>
+      const footer = document.querySelector('.site-footer');
+    
+      window.addEventListener('scroll', () => {
+        const scrolledToBottom =
+          window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
+    
+        if (scrolledToBottom) {
+          footer.classList.add('visible');
+        }
+      });
+    </script>
   </body>
 </html>
