@@ -94,13 +94,22 @@ permalink: /blog
   .blog-sidebar,
   .blog-content {
     width: 100%;
+    padding: 1rem;
   }
 
   .card {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 1.25rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+  }
+
+  .card a {
+    font-size: 1.05rem;
   }
 }
-
 
 </style>
 {% endraw %}
