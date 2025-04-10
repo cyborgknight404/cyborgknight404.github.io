@@ -20,6 +20,7 @@ title: Projects
 
 **Description:** A hands-on, locally hosted cybersecurity lab using Proxmox and virtual machines to simulate blue team environments.
 
+- 🔗 [View on GitHub](https://github.com/cyborgknight404/proxmox-lab)
 - 🔬 VMs for log ingestion, firewall testing, and SIEM setup
 - 🔧 Tools to be included: Security Onion, Zeek, Suricata, ELK Stack
-- 👷 Status: In progress; blog post with architecture overview coming soon
+- 👷 Status: In progress; architecture overview and configs coming soon
