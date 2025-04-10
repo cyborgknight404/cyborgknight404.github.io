@@ -11,6 +11,16 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
 ---
 
 <div class="card">
+  <h3><a href="/side-projects/imac-g3">🍇 iMac G3 Blueberry Restoration</a></h3>
+  <p>Reviving a translucent, CRT-powered classic from 1999—restoring Mac OS 9, cleaning internals, and keeping that startup “bong” alive.</p>
+  <ul>
+    <li>🧼 Fully cleaned and reseated with new PRAM battery</li>
+    <li>📀 Bootable with OS 9.2.2 and working legacy software</li>
+    <li>💡 Future use as novelty server or static mirror</li>
+  </ul>
+</div>
+
+<div class="card">
   <h3>💾 Retro Mac Rebuild</h3>
   <p>Repurposing a 2008 Mac Pro into a hybrid lab and NAS system. Combining old hardware with new tooling for a budget-friendly Proxmox server setup.</p>
   <ul>
@@ -49,5 +59,14 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
+}
+
+.card h3 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
 }
 </style>
