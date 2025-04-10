@@ -21,6 +21,16 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
 </div>
 
 <div class="card">
+  <h3><a href="/side-projects/self-hosted-apps">📦 Self-Hosted App Stack</a></h3>
+  <p>Testing deployment of local-first tools to replace cloud services and regain full control over personal data.</p>
+  <ul>
+    <li>📚 FreshRSS – self-hosted newsreader</li>
+    <li>🔐 Vaultwarden – secure password manager</li>
+    <li>☁️ Nextcloud – home file sync & cloud replacement</li>
+  </ul>
+</div>
+
+<div class="card">
   <h3>💾 Retro Mac Rebuild</h3>
   <p>Repurposing a 2008 Mac Pro into a hybrid lab and NAS system. Combining old hardware with new tooling for a budget-friendly Proxmox server setup.</p>
   <ul>
@@ -31,14 +41,15 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
 </div>
 
 <div class="card">
-  <h3><a href="/side-projects/self-hosted-apps">📦 Self-Hosted App Stack</a></h3>
-  <p>Testing deployment of local-first tools to replace cloud services.</p>
+  <h3>🧠 Network Automation (WIP)</h3>
+  <p>Working on smarter home network controls via Pi-hole, Unbound, and (eventually) VLAN segmentation and logging to my SIEM stack.</p>
   <ul>
-    <li>📚 FreshRSS – self-hosted newsreader</li>
-    <li>🔐 Vaultwarden – secure password manager</li>
-    <li>☁️ Nextcloud – home file sync & cloud replacement</li>
+    <li>🧰 Configured for DNS blackholing and local resolution</li>
+    <li>📡 Logging activity to Security Onion for enrichment</li>
+    <li>🚧 Under active experimentation</li>
   </ul>
 </div>
+
 
 <div class="card">
   <h3>🧠 Network Automation (WIP)</h3>
