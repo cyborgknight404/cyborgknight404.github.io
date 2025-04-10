@@ -31,8 +31,18 @@ permalink: /blog
       <h3>🧠 Hack The Box: First Impressions</h3>
       <p>What HTB’s new blue team modules look like, and how I’m using them to reinforce detection workflows in my lab.</p>
       <a href="/posts/hack-the-box-first-look">Read More →</a>
-
     </div>
+    <div class="card">
+  <h3>⚙️ Proxmox Lab Build Log</h3>
+  <p>From junk hardware to a functioning lab: how I built a full Proxmox-based blue team environment at home.</p>
+  <a href="/posts/proxmox-lab-build">Read More →</a>
+</div>
+
+<div class="card">
+  <h3>🔍 Log Parser Tool (Python)</h3>
+  <p>Scan syslogs for suspicious activity using a simple Python script I built to sharpen my detection skills.</p>
+  <a href="/posts/log-parser-tool">Read More →</a>
+</div>
   </section>
 
 </div>
