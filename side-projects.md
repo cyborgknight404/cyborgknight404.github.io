@@ -31,7 +31,7 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
 </div>
 
 <div class="card">
-  <h3>💾 Retro Mac Rebuild</h3>
+  <h3><a href="/side-projects/retro-mac-rebuild">💾 Retro Mac Rebuild</a></h3>
   <p>Repurposing a 2008 Mac Pro into a hybrid lab and NAS system. Combining old hardware with new tooling for a budget-friendly Proxmox server setup.</p>
   <ul>
     <li>🧱 Hardware salvaged and upgraded from two machines</li>
@@ -41,7 +41,7 @@ Not everything I build is strictly cybersecurity-focused—these projects keep m
 </div>
 
 <div class="card">
-  <h3>🧠 Network Automation (WIP)</h3>
+  <h3><a href="/side-projects/network-automation">🧠 Network Automation (WIP)</a></h3>
   <p>Working on smarter home network controls via Pi-hole, Unbound, and (eventually) VLAN segmentation and logging to my SIEM stack.</p>
   <ul>
     <li>🧰 Configured for DNS blackholing and local resolution</li>
