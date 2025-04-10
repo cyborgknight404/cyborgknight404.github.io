@@ -4,7 +4,11 @@ title: Blog
 ---
 
 {% raw %}
+
+<!-- BLOG LAYOUT START -->
 <div class="blog-layout">
+
+  <!-- SIDEBAR SECTION -->
   <aside class="sidebar">
     <h2>🗂️ Blog Topics</h2>
     <ul>
@@ -15,6 +19,7 @@ title: Blog
     </ul>
   </aside>
 
+  <!-- MAIN CONTENT SECTION -->
   <section class="content">
     <h1>📝 Cybersecurity Blog</h1>
     <p>This is where I reflect, document, and share what I’m building and breaking.</p>
@@ -31,17 +36,25 @@ title: Blog
       <a href="/_posts/2025-04-11-hack-the-box-first-look.md">Read More →</a>
     </div>
   </section>
-</div>
 
+</div>
+<!-- BLOG LAYOUT END -->
+
+<!-- STYLES FOR BLOG PAGE -->
 <style>
+/* Layout Structure */
 .blog-layout {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
   gap: 2rem;
+  flex-wrap: nowrap;
 }
 
+/* Sidebar Styling */
 .sidebar {
-  flex: 1 1 200px;
+  width: 220px;
+  flex-shrink: 0;
   background: #f0f0f0;
   padding: 1.5rem;
   border-radius: 8px;
@@ -67,10 +80,13 @@ title: Blog
   color: #333;
 }
 
+/* Blog Post Content Area */
 .content {
-  flex: 3 1 600px;
+  flex-grow: 1;
+  min-width: 0;
 }
 
+/* Blog Post Cards */
 .card {
   background: #fff;
   padding: 1.5rem;
@@ -78,5 +94,18 @@ title: Blog
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
 }
+
+/* Responsive Layout for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .blog-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
 </style>
+
 {% endraw %}
