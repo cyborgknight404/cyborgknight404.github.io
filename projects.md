@@ -5,7 +5,8 @@ title: Projects
 
 # 🛠 Projects
 
-## 🔍 Log Parser Script *(Coming Soon)*
+[View the log-parser repo](https://github.com/cyborgknight404/log-parser)
+
 
 **Goal:** A Python tool that reads basic system logs and flags suspicious entries based on patterns or keywords.
 
