@@ -7,60 +7,54 @@ permalink: /blog
 {% raw %}
 <div class="blog-wrapper">
 
+  <!-- SIDEBAR WITH TAG FILTER -->
   <aside class="blog-sidebar">
-    <h2>🗂️ Topics</h2>
-    <ul>
-      <li><a href="#">Certifications</a></li>
-      <li><a href="#">Labs & Tools</a></li>
-      <li><a href="#">Platform Reviews</a></li>
-      <li><a href="#">SOC Skill-Building</a></li>
-    </ul>
+    <h2>🗂️ Filter by Tag</h2>
+    <div class="tag-filter">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="certification">Certification</button>
+      <button data-filter="training">Training</button>
+      <button data-filter="labs">Labs</button>
+      <button data-filter="blue-team">Blue Team</button>
+      <button data-filter="python">Python</button>
+      <button data-filter="detection">Detection</button>
+      <button data-filter="homelab">Homelab</button>
+    </div>
   </aside>
 
-<section class="blog-content">
-  <h1>📝 Cybersecurity Blog</h1>
-  <p>This is where I reflect, document, and share what I’m building and learning.</p>
+  <!-- MAIN BLOG CONTENT -->
+  <section class="blog-content">
+    <h1>📝 Cybersecurity Blog</h1>
+    <p>This is where I reflect, document, and share what I’m building and learning.</p>
 
-  <!-- TAG FILTER BAR -->
-  <nav class="tag-filter">
-    <button data-filter="all" class="active">All</button>
-    <button data-filter="certification">Certification</button>
-    <button data-filter="training">Training</button>
-    <button data-filter="labs">Labs</button>
-    <button data-filter="blue-team">Blue Team</button>
-    <button data-filter="python">Python</button>
-    <button data-filter="detection">Detection</button>
-    <button data-filter="homelab">Homelab</button>
-  </nav>
+    <div class="card" data-tags="certification training beginner google">
+      <h3>🔐 Google Cybersecurity Certificate Review</h3>
+      <p>My breakdown of the Google Cybersecurity Certificate: what’s solid, what’s fluff, and how I used it to launch lab work.</p>
+      <a href="/posts/google-cybersecurity-cert-review">Read More →</a>
+    </div>
 
-  <!-- BLOG POST CARDS WITH TAGS -->
-  <div class="card" data-tags="certification training beginner google">
-    <h3>🔐 Google Cybersecurity Certificate Review</h3>
-    <p>My breakdown of the Google Cybersecurity Certificate: what’s solid, what’s fluff, and how I used it to launch lab work.</p>
-    <a href="/posts/google-cybersecurity-cert-review">Read More →</a>
-  </div>
+    <div class="card" data-tags="labs blue-team training hackthebox">
+      <h3>🧠 Hack The Box: First Impressions</h3>
+      <p>What HTB’s blue team training offers, and how it helps build detection skills.</p>
+      <a href="/posts/hack-the-box-first-look">Read More →</a>
+    </div>
 
-  <div class="card" data-tags="labs blue-team training hackthebox">
-    <h3>🧠 Hack The Box: First Impressions</h3>
-    <p>What HTB’s blue team training offers, and how it helps build detection skills.</p>
-    <a href="/posts/hack-the-box-first-look">Read More →</a>
-  </div>
+    <div class="card" data-tags="lab hardware proxmox blue-team homelab">
+      <h3>⚙️ Proxmox Lab Build Log</h3>
+      <p>From junk hardware to a functioning lab: how I built a full Proxmox-based blue team environment at home.</p>
+      <a href="/posts/proxmox-lab-build">Read More →</a>
+    </div>
 
-  <div class="card" data-tags="lab hardware proxmox blue-team homelab">
-    <h3>⚙️ Proxmox Lab Build Log</h3>
-    <p>From junk hardware to a functioning lab: how I built a full Proxmox-based blue team environment at home.</p>
-    <a href="/posts/proxmox-lab-build">Read More →</a>
-  </div>
-
-  <div class="card" data-tags="tool python log-analysis detection scripting">
-    <h3>🔍 Log Parser Tool (Python)</h3>
-    <p>Scan syslogs for suspicious activity using a simple Python script I built to sharpen my detection skills.</p>
-    <a href="/posts/log-parser-tool">Read More →</a>
-  </div>
-</section>
+    <div class="card" data-tags="tool python log-analysis detection scripting">
+      <h3>🔍 Log Parser Tool (Python)</h3>
+      <p>Scan syslogs for suspicious activity using a simple Python script I built to sharpen my detection skills.</p>
+      <a href="/posts/log-parser-tool">Read More →</a>
+    </div>
+  </section>
 
 </div>
 
+<!-- STYLES -->
 <style>
 .blog-wrapper {
   display: flex;
@@ -83,19 +77,27 @@ permalink: /blog
   margin-top: 0;
 }
 
-.blog-sidebar ul {
-  list-style: none;
-  padding-left: 0;
+.tag-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.blog-sidebar li {
-  margin-bottom: 0.75rem;
-}
-
-.blog-sidebar a {
-  text-decoration: none;
+.tag-filter button {
+  background: #ddd;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
   font-weight: bold;
-  color: #333;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s ease;
+}
+
+.tag-filter button:hover,
+.tag-filter button.active {
+  background: #333;
+  color: #fff;
 }
 
 .blog-content {
@@ -136,28 +138,19 @@ permalink: /blog
   }
 
   .tag-filter {
-  margin-bottom: 1rem;
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
 
-.tag-filter button {
-  background: #eee;
-  border: none;
-  padding: 8px 12px;
-  margin: 0 5px 5px 0;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
+  .tag-filter button {
+    flex: 1 1 auto;
+    text-align: center;
+  }
 }
-
-.tag-filter button.active,
-.tag-filter button:hover {
-  background: #333;
-  color: #fff;
-}
-}
-
 </style>
 
+<!-- FILTER SCRIPT -->
 <script>
   const filterButtons = document.querySelectorAll('.tag-filter button');
   const cards = document.querySelectorAll('.card');
@@ -177,5 +170,4 @@ permalink: /blog
     });
   });
 </script>
-
 {% endraw %}
