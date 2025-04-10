@@ -3,6 +3,7 @@ layout: default
 title: Hack The Box – First Impressions
 permalink: /posts/hack-the-box-first-look
 tags: [labs, blue-team, training, hackthebox]
+date: 2025-04-10
 ---
 
 # 🧠 Hack The Box – First Impressions
