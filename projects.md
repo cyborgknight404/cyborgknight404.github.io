@@ -11,7 +11,7 @@ These are the primary technical projects I’m building to develop real-world, h
 ---
 
 <div class="card">
-  <h3>🔍 Log Parser (Python)</h3>
+  <h3><a href="/projects/log-parser">🔍 Log Parser (Python)</a></h3>
   <p>A Python script that scans syslog files and flags potentially suspicious entries based on predefined keywords.</p>
   <ul>
     <li>🚀 Command-line friendly</li>
@@ -22,14 +22,14 @@ These are the primary technical projects I’m building to develop real-world, h
 </div>
 
 <div class="card">
-  <h3>⚙️ Proxmox Cybersecurity Home Lab</h3>
+  <h3><a href="/projects/proxmox-lab">⚙️ Proxmox Cybersecurity Home Lab</a></h3>
   <p>A full-featured virtual cybersecurity environment using an old Mac Pro as a Proxmox host. Built for testing SIEMs, endpoint monitoring, and attack detection.</p>
   <ul>
     <li>🖥️ Security Onion, Suricata, Zeek, and Wazuh stack</li>
     <li>🔗 Simulated attacker + endpoint VMs</li>
     <li>🛠 Under active development</li>
   </ul>
-  <a href="https://github.com/cyborgknight404/proxmox-lab">Explore the Lab →</a>
+  <a href="https://github.com/cyborgknight404/proxmox-lab">Explore the GitHub Repo →</a>
 </div>
 
 ---
@@ -41,5 +41,14 @@ These are the primary technical projects I’m building to develop real-world, h
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
+}
+
+.card h3 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
 }
 </style>
