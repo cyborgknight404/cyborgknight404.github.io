@@ -1,0 +1,63 @@
+---
+layout: default
+title: Proxmox Cybersecurity Home Lab
+description: Turning legacy hardware into a flexible cybersecurity testing environment.
+permalink: /projects/proxmox-lab
+---
+
+## ⚙️ What It Is
+
+This is my custom-built **cybersecurity home lab**, running on an old 2008 Mac Pro repurposed as a **Proxmox Virtual Environment (VE)** host.
+
+It serves as the foundation for testing:
+- Blue team detection workflows
+- Security platforms like **Security Onion**, **Suricata**, **Zeek**
+- Network segmentation and monitoring
+- Log collection, triage, and alerting
+
+---
+
+## 🧱 Hardware Overview
+
+- 🖥️ **Mac Pro 2008 (Model A1186)** – Xeon 2.8 GHz
+- 🔁 Upgraded RAM from a second donor machine
+- 💾 120GB SSD (Proxmox boot) + 1TB and 2TB HDDs for storage
+- 🛠 One bent bay was manually realigned to mount drives correctly
+
+I chose to work within the limits of aging hardware to simulate a realistic, resource-constrained blue team setup.
+
+---
+
+## 🛠️ Stack + Features
+
+- **Proxmox VE** – base hypervisor for all virtualized services
+- **Security Onion** – full packet capture, Suricata + Zeek + Wazuh stack
+- **Ubuntu Server** – for DNS (Unbound), Pi-hole, and file services
+- **Kali Linux** – attacker-side tools for testing detection logic
+- **Syslog Forwarding** – all logs route to Security Onion for analysis
+
+---
+
+## 📦 Active Use Cases
+
+- Building a **detection pipeline** from scratch
+- Practicing **packet capture review** and log correlation
+- Running mock attacks to tune alerts
+- Managing VM sprawl and network segmentation in a live SOC-style config
+
+---
+
+## 🚧 Challenges Faced
+
+- Mac EFI boot quirks with Proxmox ISO
+- Thermal management (FB-DIMMs run hot)
+- SATA port damage required bay swap and realignment
+- Drive mounting inconsistencies (legacy chassis weirdness)
+
+---
+
+## 🔄 Roadmap
+
+- 🧠 Inject attack traffic with Atomic Red Team or Caldera
+- 📊 Integrate Grafana or Kibana for better visualizations
+- 🛰 Deploy endpoint agents (Velociraptor
