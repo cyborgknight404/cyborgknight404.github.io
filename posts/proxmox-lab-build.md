@@ -3,6 +3,7 @@ layout: default
 title: Proxmox Lab Build – From Scrap to SOC
 permalink: /posts/proxmox-lab-build
 tags: [lab, hardware, proxmox, blue-team, homelab]
+date: 2025-04-10
 ---
 
 # ⚙️ Proxmox Lab Build – From Scrap to SOC
