@@ -3,6 +3,7 @@ layout: default
 title: Blog
 ---
 
+{% raw %}
 <div class="blog-layout">
   <aside class="sidebar">
     <h2>🗂️ Blog Topics</h2>
@@ -31,8 +32,6 @@ title: Blog
     </div>
   </section>
 </div>
-
----
 
 <style>
 .blog-layout {
@@ -80,3 +79,4 @@ title: Blog
   border-radius: 8px;
 }
 </style>
+{% endraw %}
