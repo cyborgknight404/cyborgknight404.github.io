@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-Description: What I’ve built, broken, and refined
+description: What I’ve built, broken, and refined
 ---
 
 # 🛠️ Cybersecurity Projects
