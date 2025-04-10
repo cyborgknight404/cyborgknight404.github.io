@@ -24,3 +24,17 @@ title: Projects
 - 🔬 VMs for log ingestion, firewall testing, and SIEM setup
 - 🔧 Tools to be included: Security Onion, Zeek, Suricata, ELK Stack
 - 👷 Status: In progress; architecture overview and configs coming soon
+
+---
+
+## 🧪 Experimental & Side Projects
+
+These aren’t directly cybersecurity-related, but they reflect my interest in tech, problem-solving, and hardware hacking.
+
+### 🔧 Home Network Automation (WIP)
+- Using Pi-hole, Unbound, and Home Assistant to manage and monitor my local network
+
+### 💾 Retro Mac Rebuild
+- Resurrecting a 2008 Mac Pro into a Proxmox-based lab and NAS
+
+I document these projects both to track my own learning and to keep ADHD-driven pivots productive.
