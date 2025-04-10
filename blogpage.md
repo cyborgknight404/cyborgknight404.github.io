@@ -91,11 +91,16 @@ permalink: /blog
     flex-direction: column;
   }
 
-  .blog-sidebar {
+  .blog-sidebar,
+  .blog-content {
     width: 100%;
-    margin-bottom: 1rem;
+  }
+
+  .card {
+    font-size: 1rem;
   }
 }
+
 
 </style>
 {% endraw %}
