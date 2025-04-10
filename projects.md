@@ -3,38 +3,42 @@ layout: default
 title: Projects
 ---
 
-# 🛠 Projects
+# 🛠️ Cybersecurity Projects
 
-## 🔍 Log Parser
-
-**Description:** A Python script that scans log files and flags potentially suspicious entries based on a predefined list of keywords.
-
-- 🔗 [View on GitHub](https://github.com/cyborgknight404/log-parser)
-- 🐍 Language: Python 3.11
-- 📂 Input: Text-based log files (e.g., `.log`, `.txt`)
-- 🎯 Purpose: Build foundational scripting skills for log analysis and defensive security workflows
+These are the primary technical projects I’m building to develop real-world, hands-on security skills—focusing on log analysis, blue team tooling, and home lab architecture.
 
 ---
 
-## ⚙️ Proxmox Home Lab (WIP)
+<div class="card">
+  <h3>🔍 Log Parser (Python)</h3>
+  <p>A Python script that scans syslog files and flags potentially suspicious entries based on predefined keywords.</p>
+  <ul>
+    <li>🚀 Command-line friendly</li>
+    <li>📂 Outputs flagged entries to a timestamped log</li>
+    <li>🧠 In progress: filtering, config, alert flags</li>
+  </ul>
+  <a href="https://github.com/cyborgknight404/log-parser">View on GitHub →</a>
+</div>
 
-**Description:** A hands-on, locally hosted cybersecurity lab using Proxmox and virtual machines to simulate blue team environments.
-
-- 🔗 [View on GitHub](https://github.com/cyborgknight404/proxmox-lab)
-- 🔬 VMs for log ingestion, firewall testing, and SIEM setup
-- 🔧 Tools to be included: Security Onion, Zeek, Suricata, ELK Stack
-- 👷 Status: In progress; architecture overview and configs coming soon
+<div class="card">
+  <h3>⚙️ Proxmox Cybersecurity Home Lab</h3>
+  <p>A full-featured virtual cybersecurity environment using an old Mac Pro as a Proxmox host. Built for testing SIEMs, endpoint monitoring, and attack detection.</p>
+  <ul>
+    <li>🖥️ Security Onion, Suricata, Zeek, and Wazuh stack</li>
+    <li>🔗 Simulated attacker + endpoint VMs</li>
+    <li>🛠 Under active development</li>
+  </ul>
+  <a href="https://github.com/cyborgknight404/proxmox-lab">Explore the Lab →</a>
+</div>
 
 ---
 
-## 🧪 Experimental & Side Projects
-
-These aren’t directly cybersecurity-related, but they reflect my interest in tech, problem-solving, and hardware hacking.
-
-### 🔧 Home Network Automation (WIP)
-- Using Pi-hole, Unbound, and Home Assistant to manage and monitor my local network
-
-### 💾 Retro Mac Rebuild
-- Resurrecting a 2008 Mac Pro into a Proxmox-based lab and NAS
-
-I document these projects both to track my own learning and to keep ADHD-driven pivots productive.
+<style>
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+</style>
