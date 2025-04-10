@@ -52,13 +52,6 @@ This site is where I document, build, and break things—sometimes on purpose.
 
 ---
 
-## 💬 Let’s Connect
-
-I’m open to collabs, idea swaps, and feedback.  
-Reach me on [GitHub](https://github.com/cyborgknight404) or via the links in the footer.
-
----
-
 <style>
 .card {
   background: #fff;
