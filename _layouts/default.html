@@ -150,7 +150,7 @@
       .floating-footer {
         position: fixed;
         bottom: 30px;
-        right: 30px;
+        left: 30px; 
         background: #111;
         color: #fff;
         padding: 1rem 1.25rem;
@@ -165,7 +165,7 @@
       }
 
       .floating-footer.visible {
-        opacity: 1;
+        opacity: 20;
         transform: translateY(0);
       }
 
@@ -173,6 +173,18 @@
         color: #00ffe7;
         text-decoration: none;
         font-weight: bold;
+      }
+      
+      .cyborg-footer {
+        font-family: 'Orbitron', sans-serif;
+        color: #00ffe7;
+        font-weight: 700;
+      }
+
+      .knight-footer {
+        font-family: 'MedievalSharp', cursive;
+        color: #ffcc00;
+        font-weight: normal;
       }
 
       .floating-footer a:hover {
@@ -205,7 +217,7 @@
     <footer class="floating-footer hidden-footer">
       <div class="footer-content">
         <p>
-          🤖 <strong>Cyborg Knight</strong><br>
+          🤖 <span class="cyborg-footer">Cyborg</span> <span class="knight-footer">Knight</span><br>
           <a href="https://github.com/cyborgknight404">GitHub</a> |
           <a href="/now">Now</a><br>
           <a href="/about">About</a> |
