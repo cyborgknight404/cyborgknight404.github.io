@@ -150,14 +150,14 @@
       .floating-footer {
         position: fixed;
         bottom: 30px;
-        left: 30px; 
+        left: 30px;
         background: #111;
         color: #fff;
-        padding: 1rem 1.25rem;
+        padding: 1.25rem 1.5rem;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        font-size: 0.9rem;
-        max-width: 260px;
+        font-size: 0.95rem;
+        width: 320px; /* wider than before */
         z-index: 999;
         opacity: 0;
         transform: translateY(40px);
@@ -165,7 +165,7 @@
       }
 
       .floating-footer.visible {
-        opacity: 20;
+        opacity: 1;
         transform: translateY(0);
       }
 
@@ -174,7 +174,11 @@
         text-decoration: none;
         font-weight: bold;
       }
-      
+
+      .floating-footer a:hover {
+        text-decoration: underline;
+      }
+
       .cyborg-footer {
         font-family: 'Orbitron', sans-serif;
         color: #00ffe7;
@@ -187,8 +191,19 @@
         font-weight: normal;
       }
 
-      .floating-footer a:hover {
-        text-decoration: underline;
+      .close-footer {
+        position: absolute;
+        top: 6px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 1.25rem;
+        color: #aaa;
+        cursor: pointer;
+      }
+
+      .close-footer:hover {
+        color: #fff;
       }
     </style>
   </head>
@@ -214,7 +229,8 @@
       </main>
     </div>
 
-    <footer class="floating-footer hidden-footer">
+    <footer class="floating-footer hidden-footer" id="smartFooter">
+      <button class="close-footer" aria-label="Close Footer">&times;</button>
       <div class="footer-content">
         <p>
           🤖 <span class="cyborg-footer">Cyborg</span> <span class="knight-footer">Knight</span><br>
@@ -230,16 +246,24 @@
     </footer>
 
     <script>
-      const footer = document.querySelector('.floating-footer');
+  const footer = document.getElementById('smartFooter');
+  const closeBtn = document.querySelector('.close-footer');
 
-      window.addEventListener('scroll', () => {
-        const scrolledToBottom =
-          window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
+  let footerDismissed = false;
 
-        if (scrolledToBottom) {
-          footer.classList.add('visible');
-        }
-      });
-    </script>
+  window.addEventListener('scroll', () => {
+    const bottomReached =
+      window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
+
+    if (bottomReached && !footerDismissed) {
+      footer.classList.add('visible');
+    }
+  });
+
+  closeBtn.addEventListener('click', () => {
+    footer.classList.remove('visible');
+    footerDismissed = true;
+  });
+</script>
   </body>
 </html>
