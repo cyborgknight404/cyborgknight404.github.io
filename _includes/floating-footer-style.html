@@ -1,0 +1,77 @@
+<style>
+  .floating-footer {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background: #111;
+    color: #fff;
+    padding: 1.5rem 1.75rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-size: 0.95rem;
+    width: 340px;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.4s ease;
+    text-align: center;
+  }
+
+  .floating-footer.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .floating-footer a {
+    color: #00ffe7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .floating-footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-logo {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .cyborg-footer {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffe7;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  .knight-footer {
+    font-family: 'MedievalSharp', cursive;
+    color: #ffcc00;
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+
+  .footer-links {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-contact {
+    margin-top: 0.25rem;
+    color: #ccc;
+  }
+
+  .close-footer {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    color: #aaa;
+    cursor: pointer;
+  }
+
+  .close-footer:hover {
+    color: #fff;
+  }
+</style>
