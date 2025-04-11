@@ -246,45 +246,7 @@
       </main>
     </div>
 
-    <footer class="floating-footer hidden-footer" id="smartFooter">
-      <button class="close-footer" aria-label="Close Footer">&times;</button>
-      <div class="footer-content">
-        <div class="footer-logo">
-          🤖 <span class="cyborg-footer">Cyborg</span> <span class="knight-footer">Knight</span>
-        </div>
+{% include floating-footer.html %}
     
-        <div class="footer-links">
-          <a href="https://github.com/cyborgknight404">GitHub</a> |
-          <a href="/now">Now</a> |
-          <a href="/about">About</a> |
-          <a href="/blog">Blog</a>
-        </div>
-    
-        <div class="footer-contact">
-          💬 <a href="mailto:youremail@example.com">Reach out</a>
-        </div>
-      </div>
-    </footer>
-
-    <script>
-  const footer = document.getElementById('smartFooter');
-  const closeBtn = document.querySelector('.close-footer');
-
-  let footerDismissed = false;
-
-  window.addEventListener('scroll', () => {
-    const bottomReached =
-      window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
-
-    if (bottomReached && !footerDismissed) {
-      footer.classList.add('visible');
-    }
-  });
-
-  closeBtn.addEventListener('click', () => {
-    footer.classList.remove('visible');
-    footerDismissed = true;
-  });
-</script>
   </body>
 </html>
