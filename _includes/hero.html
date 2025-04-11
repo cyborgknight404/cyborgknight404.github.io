@@ -1,0 +1,11 @@
+<div class="hero">
+  {% if page.url == "/" %}
+    <h1><span class="cyborg">CYBORG</span><span class="knight">KNIGHT</span></h1>
+    <p>Cybersecurity Explorer, Blue Team Builder, Digital Tinkerer</p>
+  {% else %}
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="page-subtitle">{{ page.description }}</p>
+    {% endif %}
+  {% endif %}
+</div>
