@@ -203,28 +203,31 @@
     </div>
 
    <footer class="site-footer hidden-footer">
-      <div class="footer-content">
-        <p>🤖 Built by Cyborg Knight | <a href="https://github.com/cyborgknight404">GitHub</a>
-                                      |<a href="/now">Now</a>
+    <div class="footer-content">
+      <p>
+        🤖 Built by Cyborg Knight |
+        <a href="https://github.com/cyborgknight404">GitHub</a> |
+        <a href="/now">Now</a>
         {% if page.url != "/about" %} | <a href="/about">About Me</a>{% endif %}
         {% if page.url != "/blog" %} | <a href="/blog">Blog</a>{% endif %}
-        </p>
-        <p class="footer-contact">
-          💬 Want to collaborate or chat security? <a href="mailto:youremail@example.com">Reach out</a>.
-        </p>
-      </div>
-    </footer>
-    <script>
-      const footer = document.querySelector('.site-footer');
-    
-      window.addEventListener('scroll', () => {
-        const scrolledToBottom =
-          window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
-    
-        if (scrolledToBottom) {
-          footer.classList.add('visible');
-        }
-      });
-    </script>
+      </p>
+      <p class="footer-contact">
+        💬 Want to collaborate or chat security? <a href="mailto:youremail@example.com">Reach out</a>.
+      </p>
+    </div>
+  </footer>
+  
+  <script>
+    const footer = document.querySelector('.site-footer');
+  
+    window.addEventListener('scroll', () => {
+      const scrolledToBottom =
+        window.innerHeight + window.scrollY >= document.body.offsetHeight - 50;
+  
+      if (scrolledToBottom) {
+        footer.classList.add('visible');
+      }
+    });
+</script>
   </body>
 </html>
