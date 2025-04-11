@@ -148,63 +148,80 @@
 
       /* Floating footer styles */
       .floating-footer {
-        position: fixed;
-        bottom: 30px;
-        left: 30px;
-        background: #111;
-        color: #fff;
-        padding: 1.25rem 1.5rem;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        font-size: 0.95rem;
-        width: 320px; /* wider than before */
-        z-index: 999;
-        opacity: 0;
-        transform: translateY(40px);
-        transition: all 0.4s ease;
-      }
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background: #111;
+  color: #fff;
+  padding: 1.5rem 1.75rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-size: 0.95rem;
+  width: 340px;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.4s ease;
+  text-align: center;
+}
 
-      .floating-footer.visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
+.floating-footer.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-      .floating-footer a {
-        color: #00ffe7;
-        text-decoration: none;
-        font-weight: bold;
-      }
+.floating-footer a {
+  color: #00ffe7;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-      .floating-footer a:hover {
-        text-decoration: underline;
-      }
+.floating-footer a:hover {
+  text-decoration: underline;
+}
 
-      .cyborg-footer {
-        font-family: 'Orbitron', sans-serif;
-        color: #00ffe7;
-        font-weight: 700;
-      }
+.footer-logo {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
 
-      .knight-footer {
-        font-family: 'MedievalSharp', cursive;
-        color: #ffcc00;
-        font-weight: normal;
-      }
+.cyborg-footer {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffe7;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
 
-      .close-footer {
-        position: absolute;
-        top: 6px;
-        right: 10px;
-        background: none;
-        border: none;
-        font-size: 1.25rem;
-        color: #aaa;
-        cursor: pointer;
-      }
+.knight-footer {
+  font-family: 'MedievalSharp', cursive;
+  color: #ffcc00;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
 
-      .close-footer:hover {
-        color: #fff;
-      }
+.footer-links {
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact {
+  margin-top: 0.25rem;
+  color: #ccc;
+}
+
+.close-footer {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.close-footer:hover {
+  color: #fff;
+}
     </style>
   </head>
 
@@ -232,16 +249,20 @@
     <footer class="floating-footer hidden-footer" id="smartFooter">
       <button class="close-footer" aria-label="Close Footer">&times;</button>
       <div class="footer-content">
-        <p>
-          🤖 <span class="cyborg-footer">Cyborg</span> <span class="knight-footer">Knight</span><br>
+        <div class="footer-logo">
+          🤖 <span class="cyborg-footer">Cyborg</span> <span class="knight-footer">Knight</span>
+        </div>
+    
+        <div class="footer-links">
           <a href="https://github.com/cyborgknight404">GitHub</a> |
-          <a href="/now">Now</a><br>
+          <a href="/now">Now</a> |
           <a href="/about">About</a> |
           <a href="/blog">Blog</a>
-        </p>
-        <p class="footer-contact">
+        </div>
+    
+        <div class="footer-contact">
           💬 <a href="mailto:youremail@example.com">Reach out</a>
-        </p>
+        </div>
       </div>
     </footer>
 
