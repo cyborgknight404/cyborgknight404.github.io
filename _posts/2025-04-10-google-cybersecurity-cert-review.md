@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Google Cybersecurity Certificate Review
+description: "An honest breakdown of the Google Cybersecurity Certificate—what it covers well, where it falls short, and how to actually turn it into hands-on experience."
 permalink: /posts/google-cybersecurity-cert-review
 tags: [certification, training, beginner, google]
 date: 2025-04-10
