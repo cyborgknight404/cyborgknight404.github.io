@@ -33,15 +33,15 @@ permalink: /blog
     {% for post in site.posts %}
       <div class="card" data-tags="{{ post.tags | join: ' ' }}">
         <div class="card-flex">
-          {% if post.image %}
-            <img src="{{ post.image }}" alt="{{ post.title }} badge" class="card-thumb">
-          {% endif %}
           <div class="card-text">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <p class="post-date">📅 {{ post.date | date: "%B %e, %Y" }}</p>
             <p>{{ post.description }}</p>
             <a href="{{ post.url }}">Read More →</a>
           </div>
+          {% if post.image %}
+            <img src="{{ post.image }}" alt="{{ post.title }} badge" class="card-thumb">
+          {% endif %}
         </div>
       </div>
     {% endfor %}
@@ -108,25 +108,23 @@ permalink: /blog
   border-radius: 8px;
 }
 
-  .card-flex {
-    display: flex;
-    align-items: stretch;
-    gap: 1.5rem;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+.card-flex {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-  .card-thumb {
-    width: 140px;
-    height: auto;
-    max-height: 100%;
-    border-radius: 8px;
-    flex-shrink: 0;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    object-fit: contain;
-    align-self: flex-start;
-    margin-left: auto;
-  }
+.card-thumb {
+  width: 140px;
+  height: auto;
+  max-height: 100%;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: contain;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
 
 .card-text {
   flex: 1;
