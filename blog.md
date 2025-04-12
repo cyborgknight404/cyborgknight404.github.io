@@ -166,7 +166,18 @@ permalink: /blog
     flex: 1 1 auto;
     text-align: center;
   }
-}
+
+  .card-text h3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .card-text h3 a:hover {
+    text-decoration: underline;
+    color: #007acc;
+  }
+  
+}  
 </style>
 
 <!-- FILTER SCRIPT -->
