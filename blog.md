@@ -130,7 +130,7 @@ permalink: /blog
   flex: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .blog-wrapper {
     flex-direction: column;
   }
@@ -147,6 +147,7 @@ permalink: /blog
     margin-top: 1rem;
   }
 }
+  
   .blog-sidebar,
   .blog-content {
     width: 100%;
