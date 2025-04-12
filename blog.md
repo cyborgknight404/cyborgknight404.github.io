@@ -27,7 +27,14 @@ permalink: /blog
   <section class="blog-content">
     <h1>📝 Cybersecurity Blog</h1>
     <p>This is where I reflect, document, and share what I’m building and learning.</p>
-
+    
+    <div class="card" data-tags="film-analysis war-games popculture osint ai social-engineering automation">
+      <h3>🎮 WarGames (1983): What a Teen Hacker Still Teaches Us About Cybersecurity</h3>
+      <p class="post-date">📅 April 11, 2025</p>
+      <p>Classic movie, timeless lessons. From social engineering to automation run amok, this breakdown       shows how *WarGames* still maps to modern cybersecurity principles.</p>
+      <a href="/posts/war-games-cybersecurity-lessons">Read More →</a>
+    </div>
+    
     <div class="card" data-tags="certification training beginner google">
       <h3>🔐 Google Cybersecurity Certificate Review</h3>
       <p class="post-date">📅 April 10, 2025</p>
