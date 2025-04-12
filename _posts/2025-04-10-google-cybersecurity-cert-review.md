@@ -1,23 +1,57 @@
 ---
-layout: post
-title: "What I Learned from the Google Cybersecurity Certificate"
+layout: default
+title: Google Cybersecurity Certificate Review
+permalink: /posts/google-cybersecurity-cert-review
+tags: [certification, training, beginner, google]
 date: 2025-04-10
 ---
 
-The Google Cybersecurity Certificate was my first structured step into the world of cybersecurity. Here's what I learned and what I took away from it:
+# 🔐 Google Cybersecurity Certificate Review
 
-## 🔑 Key Takeaways
-
-- Strong foundation in security concepts like CIA triad, threat modeling, and incident response
-- Real-world scenarios made it easier to understand abstract topics
-- Loved the engaging format and hands-on feel—it didn’t talk *at* you, it walked *with* you
-
-## 🧠 What’s Next
-
-- Microsoft SC-900 and CompTIA Security+/Network+
-- Applying what I learned in real labs via Hack The Box and TryHackMe
-- Building out my home lab with Proxmox and open-source security tools
+I recently completed the **Google Cybersecurity Professional Certificate** on Coursera, and here’s my honest take.
 
 ---
 
-> 📌 This is the first of many posts tracking my cybersecurity journey. Follow along as I go deeper into tools, labs, and certs.
+## 🧠 What It Covers
+
+- Basics of security concepts (CIA triad, risk management)
+- Tools like Wireshark, Nmap, and Nessus
+- Intro to SOC operations and incident response
+- Linux, Windows, networking, Python, and SIEM basics
+
+---
+
+## 👍 What Was Good
+
+- Very beginner-friendly and structured
+- Instructors are clear and well-paced
+- Final capstone ties together practical knowledge
+- Actually engaging for a self-paced course
+
+---
+
+## 👎 What Fell Flat
+
+- Too slow if you already have IT basics
+- Hands-on sections are often just videos, not true labs
+- No real log analysis or security detection exercises
+
+---
+
+## 🔧 How I Used It
+
+I used this cert to:
+- Refresh foundational terminology
+- Build confidence before moving into harder blue team content
+- Structure my lab documentation style and flow
+
+---
+
+## 🔚 Would I Recommend It?
+
+Yes—**for beginners**, it’s a great launchpad.  
+For intermediate learners? You’ll move fast, but you’ll still learn how to communicate like a SOC analyst.
+
+---
+
+*Next up, I’m working through Hack The Box training and Security Onion deployment in my home lab.*
