@@ -28,19 +28,21 @@ permalink: /blog
     <p>This is where I reflect, document, and share what I’m building and learning.</p>
 
     {% for post in site.posts %}
-    <div class="card" data-tags="{{ post.tags | join: ' ' }}">
-    {% if post.image %}
-    <img src="{{ post.image }}" alt="{{ post.title }} badge" class="post-preview-img">
-    {% endif %}
-      <h3>{{ post.title }}</h3>
-      <p class="post-date">📅 {{ post.date | date: "%B %e, %Y" }}</p>
-      <p>{{ post.description }}</p>
-      <a href="{{ post.url }}">Read More →</a>
+    {% for post in site.posts %}
+  <div class="card" data-tags="{{ post.tags | join: ' ' }}">
+    <div class="card-flex">
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }} badge" class="card-thumb">
+      {% endif %}
+      <div class="card-text">
+        <h3>{{ post.title }}</h3>
+        <p class="post-date">📅 {{ post.date | date: "%B %e, %Y" }}</p>
+        <p>{{ post.description }}</p>
+        <a href="{{ post.url }}">Read More →</a>
+      </div>
     </div>
-    {% endfor %}
-  </section>
-
-</div>
+  </div>
+{% endfor %}
 
 <!-- STYLES -->
 <style>
@@ -135,12 +137,32 @@ permalink: /blog
     flex: 1 1 auto;
     text-align: center;
   }
+  
   .post-preview-img {
     max-width: 100%;
     height: auto;
     border-radius: 6px;
     margin-bottom: 1rem;
   }
+
+  .card-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .card-thumb {
+    width: 90px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+.card-text {
+  flex: 1;
+  }
+  
 }
 </style>
 
