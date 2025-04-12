@@ -1,3 +1,5 @@
+<!-- Force rebuild -->
+
 ---
 layout: default
 title: Blog
