@@ -29,6 +29,9 @@ permalink: /blog
 
     {% for post in site.posts %}
     <div class="card" data-tags="{{ post.tags | join: ' ' }}">
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="{{ post.title }} badge" class="post-preview-img">
+    {% endif %}
       <h3>{{ post.title }}</h3>
       <p class="post-date">📅 {{ post.date | date: "%B %e, %Y" }}</p>
       <p>{{ post.description }}</p>
@@ -131,6 +134,12 @@ permalink: /blog
   .tag-filter button {
     flex: 1 1 auto;
     text-align: center;
+  }
+  .post-preview-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1rem;
   }
 }
 </style>
