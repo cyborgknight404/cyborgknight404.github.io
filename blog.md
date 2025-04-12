@@ -5,7 +5,6 @@ description: Thoughts, writeups, and lessons learned
 permalink: /blog
 ---
 
-{% raw %}
 <div class="blog-wrapper">
 
   <!-- SIDEBAR WITH TAG FILTER -->
@@ -156,4 +155,3 @@ permalink: /blog
     });
   });
 </script>
-{% endraw %}
