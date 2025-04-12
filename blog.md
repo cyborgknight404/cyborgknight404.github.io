@@ -37,7 +37,7 @@ permalink: /blog
             <img src="{{ post.image }}" alt="{{ post.title }} badge" class="card-thumb">
           {% endif %}
           <div class="card-text">
-            <h3>{{ post.title }}</h3>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <p class="post-date">📅 {{ post.date | date: "%B %e, %Y" }}</p>
             <p>{{ post.description }}</p>
             <a href="{{ post.url }}">Read More →</a>
