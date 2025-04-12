@@ -108,19 +108,25 @@ permalink: /blog
   border-radius: 8px;
 }
 
-.card-flex {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-}
+  .card-flex {
+    display: flex;
+    align-items: stretch;
+    gap: 1.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-.card-thumb {
-  width: 90px;
-  height: auto;
-  border-radius: 8px;
-  flex-shrink: 0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
+  .card-thumb {
+    width: 140px;
+    height: auto;
+    max-height: 100%;
+    border-radius: 8px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    align-self: flex-start;
+    margin-left: auto;
+  }
 
 .card-text {
   flex: 1;
