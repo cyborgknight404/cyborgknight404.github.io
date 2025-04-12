@@ -135,6 +135,18 @@ permalink: /blog
     flex-direction: column;
   }
 
+  .card-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-thumb {
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+    margin-top: 1rem;
+  }
+}
   .blog-sidebar,
   .blog-content {
     width: 100%;
