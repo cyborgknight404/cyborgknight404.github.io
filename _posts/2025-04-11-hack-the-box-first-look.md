@@ -1,9 +1,13 @@
 ---
-layout: default
-title: Hack The Box – First Impressions
+layout: post
+title: "Hack The Box – First Impressions"
+author: Cyborg Knight
+date: 2025-04-10
 permalink: /posts/hack-the-box-first-look
 tags: [labs, blue-team, training, hackthebox]
-date: 2025-04-10
+categories: [cybersecurity, lab-review, portfolio]
+image: /assets/images/hackthebox-thumbnail-cartoon.png
+description: "First impressions of Hack The Box’s blue team labs — hands-on SIEM, detection workflows, and packet analysis for defenders in training."
 ---
 
 # 🧠 Hack The Box – First Impressions
