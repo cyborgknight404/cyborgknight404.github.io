@@ -4,6 +4,7 @@ layout: post
 date: 2025-04-11
 categories: [cybersecurity, film-analysis, portfolio]
 tags: [wargames, hacker-movie, cybersecurity-lessons, popculture]
+image: /assets/images/wargames-thumbnail-cartoon.png
 ---
 
 > “Shall we play a game?” — *WOPR, WarGames (1983)*
@@ -64,4 +65,4 @@ As I transition into a cybersecurity career, this film hit differently. It made 
 
 ---
 
-*Thanks for reading. Want more breakdowns like this? Check out my [Cybersecurity Film Watchlist](#) or connect with me on [GitHub](https://github.com/yourhandle).*
+*Thanks for reading. Want more breakdowns like this? Check out my [Cybersecurity Film Watchlist](#) (coming soon) or connect with me on [GitHub](https://github.com/cyborgknight404).*
