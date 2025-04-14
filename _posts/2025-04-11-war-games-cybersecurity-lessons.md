@@ -1,5 +1,6 @@
 ---
 title: "WarGames (1983): What a Teen Hacker Still Teaches Us About Cybersecurity"
+author: Cyborg Knight
 layout: post
 date: 2025-04-11
 categories: [cybersecurity, film-analysis, portfolio]
