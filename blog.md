@@ -130,65 +130,15 @@ permalink: /blog
   flex: 1;
 }
 
-@media screen and (max-width: 640px) {
-  .blog-wrapper {
-    flex-direction: column;
-  }
-
-  .card-flex {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .card-thumb {
-    width: 100%;
-    max-width: 300px;
-    align-self: center;
-    margin-top: 1rem;
-  }
+.card-text h3 a {
+  color: inherit;
+  text-decoration: none;
 }
-  
-  .blog-sidebar,
-  .blog-content {
-    width: 100%;
-    padding: 1rem;
-  }
 
-  .card {
-    font-size: 1.1rem;
-    padding: 1.25rem;
-  }
-
-  .card h3 {
-    font-size: 1.3rem;
-  }
-
-  .card a {
-    font-size: 1.05rem;
-  }
-
-  .tag-filter {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-
-  .tag-filter button {
-    flex: 1 1 auto;
-    text-align: center;
-  }
-
-  .card-text h3 a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .card-text h3 a:hover {
-    text-decoration: underline;
-    color: #007acc;
-  }
-  
-}  
+.card-text h3 a:hover {
+  text-decoration: underline;
+  color: #007acc;
+}
 </style>
 
 <!-- FILTER SCRIPT -->
