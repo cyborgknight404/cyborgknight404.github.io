@@ -12,7 +12,6 @@ image: /assets/images/wargames-thumbnail-cartoon.png
 </div>
 <p><em>— WOPR, WarGames (1983)</em></p>
 
-
 In 1983, the movie *WarGames* introduced the world to a teenager who nearly starts World War III by accidentally hacking into a U.S. military AI. Over 40 years later, the movie still holds up—not just as a Cold War thriller, but as a case study in everything that can go wrong when cybersecurity is ignored.
 
 ---
