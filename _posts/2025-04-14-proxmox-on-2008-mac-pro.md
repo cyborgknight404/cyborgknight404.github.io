@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Proxmox on a 2008 Mac Pro: A Weekend of Perseverance
+title: "Proxmox on a 2008 Mac Pro: A Weekend of Perseverance"
 description: "One vintage Mac Pro, one tangled mess of Ethernet cables, and one stubborn weekend later—how I turned chaos into a working homelab."
-permalink: /posts/proxmox-macpro-weekend
-tags: [proxmox, homelab, macpro, virtualization, self-hosting]
+permalink: /posts/proxmox-on-2008-mac-pro
+tags: [proxmox, homelab, mac pro, virtualization, self-hosting]
 image: /assets/images/proxmox-macpro-thumbnail.png
 date: 2025-04-14
 ---
