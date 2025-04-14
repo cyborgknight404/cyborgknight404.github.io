@@ -1,9 +1,13 @@
 ---
-layout: default
-title: Proxmox Lab Build – From Scrap to SOC
+layout: post
+title: "Proxmox Lab Build – From Scrap to SOC"
+author: Cyborg Knight
+date: 2025-04-10
 permalink: /posts/proxmox-lab-build
 tags: [lab, hardware, proxmox, blue-team, homelab]
-date: 2025-04-10
+categories: [cybersecurity, homelab, portfolio]
+image: /assets/images/proxmox-hercules-thumbnail.png
+description: "Turning a 2008 Mac Pro into a cybersecurity lab using Proxmox VE. From busted scrap to a blue team SOC sim stack."
 ---
 
 # ⚙️ Proxmox Lab Build – From Scrap to SOC
