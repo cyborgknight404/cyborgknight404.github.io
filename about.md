@@ -33,18 +33,6 @@ Because keeping things safe isn't just a job—it's a challenge I enjoy solving.
 
 ---
 
-## 💬 Contact / Connect
-
-You can find me on:
-
-- 🐙 [GitHub](https://github.com/cyborgknight404)
-- 💼 [LinkedIn](#) *(insert link when ready)*
-- 📬 Email: *add it or leave it out as you prefer*
-
-Let’s talk labs, logs, or whatever you’re working on.
-
----
-
 <style>
 .card {
   background: #fff;
